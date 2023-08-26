@@ -10,10 +10,10 @@ fun main() {
     Javalin.create()
         .routes {
             path("login") {
-                get(Controller::login)
+                post(Controller::login)
             }
             path("register") {
-                get(Controller::register)
+                post(Controller::register)
             }
             path("users") {
                 path("current") {
@@ -22,7 +22,7 @@ fun main() {
                 path("{id}") {
                     get(ControllerUsers::getId)
                     path("friends") {
-                        get(ControllerUsers::friends)
+                        put(ControllerUsers::friends)
                     }
                 }
             }
@@ -34,10 +34,10 @@ fun main() {
                 path("{id}") {
                     get(ControllerGames::getId)
                     path("reviews") {
-                        get(ControllerGames::reviews)
+                        put(ControllerGames::reviews)
                     }
                     path("purchase") {
-                        get(ControllerGames::purchase)
+                        post(ControllerGames::purchase)
                     }
                 }
             }

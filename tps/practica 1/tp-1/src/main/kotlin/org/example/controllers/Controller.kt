@@ -6,8 +6,7 @@ import org.example.repository.Repository
 
 object Controller {
     fun login(ctx: Context) {
-
-        ctx.result("Login")
+        ctx.result(Repository.steamSystem.users.get(1).name)
     }
 
     fun register(ctx: Context) {
