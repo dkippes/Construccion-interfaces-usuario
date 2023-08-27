@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb16b5fb-4934-4edd-9e40-25480fb23e7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/utils/ObjectMapperConverter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/controllers/ControllerGames.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/controllers/ControllerGames.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/dtos/PurchaseBody.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/dtos/PurchaseBody.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/dtos/UserDTO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/dtos/UserDTO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/utils/ObjectMapperConverter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/utils/ObjectMapperConverter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,22 +79,11 @@
       <option name="presentableId" value="Default" />
       <updated>1692933305826</updated>
       <workItem from="1692933307462" duration="3017000" />
-      <workItem from="1693084435281" duration="8127000" />
+      <workItem from="1693084435281" duration="8837000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/org/example/controllers/ControllerGames.kt</url>
-          <line>44</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
