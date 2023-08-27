@@ -1,10 +1,7 @@
 package org.example.utils
 
 import org.example.dtos.*
-import org.unq.model.Game
-import org.unq.model.Price
-import org.unq.model.Tag
-import org.unq.model.User
+import org.unq.model.*
 
 class ObjectMapperConverter {
     companion object {
@@ -20,7 +17,7 @@ class ObjectMapperConverter {
             )
         }
 
-        private fun convertToListSimpleUserDTO(friends: MutableList<User>): List<SimpleUserDTO> {
+        private fun convertToListSimpleUserDTO(friends: List<User>): List<SimpleUserDTO> {
             return friends.map { SimpleUserDTO(it.id, it.name, it.image) }
         }
 
@@ -42,6 +39,18 @@ class ObjectMapperConverter {
 
         fun convertToImageDTO(image: String): ImageDTO {
             return ImageDTO(image)
+        }
+
+        fun convertToPageInfoUserDTO(pageInfo: PageInfo<User>): Any {
+            return PageInfoSimpleUserDTO(pageInfo.currentPage, pageInfo.amountOfElements, pageInfo.amountOfPages,
+                convertToListSimpleUserDTO(pageInfo.list)
+            )
+        }
+
+        fun convertToPageInfoGameDTO(pageInfo: PageInfo<Game>): Any {
+            return PageInfoSimpleGameDTO(pageInfo.currentPage, pageInfo.amountOfElements, pageInfo.amountOfPages,
+                convertToListSimpleGameDTO(pageInfo.list)
+            )
         }
     }
 }

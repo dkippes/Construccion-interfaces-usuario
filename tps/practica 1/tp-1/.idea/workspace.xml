@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cb16b5fb-4934-4edd-9e40-25480fb23e7e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/controllers/ControllerGames.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/controllers/ControllerGames.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/controllers/ControllerSearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/controllers/ControllerSearch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/controllers/ControllerTags.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/controllers/ControllerTags.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/utils/ObjectMapperConverter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/example/utils/ObjectMapperConverter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,21 +33,21 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Universidad/2023/2do Cuatrimestre/Construccion de interfaces/tps/practica 1/tp-1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Universidad/2023/2do Cuatrimestre/Construccion de interfaces/tps/practica 1/tp-1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="org.example.repository" />
@@ -79,11 +80,23 @@
       <option name="presentableId" value="Default" />
       <updated>1692933305826</updated>
       <workItem from="1692933307462" duration="3017000" />
-      <workItem from="1693084435281" duration="8837000" />
+      <workItem from="1693084435281" duration="9210000" />
+      <workItem from="1693149417424" duration="2162000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/org/example/controllers/ControllerSearch.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
